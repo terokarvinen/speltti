@@ -16,6 +16,8 @@ Speltti achieves this speed by only checking the visible part of the document (a
 
 To keep the user interface responsive while working, Speltti only starts the spell check after user has been idle for half a second. 
 
+![Screenshot](https://terokarvinen.com/speltti/speltti-fast-spellcheck-for-micro.png?s=github)
+
 ## Annoying?
 
 Spell check might not be useful for source code. 
