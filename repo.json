@@ -1,0 +1,15 @@
+[{
+  "Name": "speltti",
+  "Description": "Fast spell checking, even for book-sized documents.",
+  "Tags": ["spellchecking", "spelling", "aspell", "spellchecker"],
+  "Website": "https://terokarvinen.com/speltti/",
+  "Versions": [
+    {
+      "Version": "0.0.1",
+      "Url": "",
+      "Require": {
+        "micro": ">=2.0.7"
+      }
+    },
+  ]
+}]
