@@ -1,12 +1,14 @@
 # Speltti - fast spell checking plugin for micro-editor
 
-Fast aspell plugin for micro-editor. 
+[Fast](#fast) aspell plugin for micro-editor. [Screenshot](#screenshot)
 
 Quick and responsive for book size documents, too. 
 
 Free, open source software. MIT License. 
 
 Warning: *Alpha quality, vibe coded. And only works with development version of micro (as of 2025-06-30 w27 Mon).* But it does work on my machine. 
+
+<a name="fast">
 
 ## How so fast?
 
@@ -15,6 +17,8 @@ Speltti is fast and responsive. I tested it with a 3moby.md, a text document wit
 Speltti achieves this speed by only checking the visible part of the document (about 70 lines), instead of the whole document (47k lines). As new lines are added, this will trigger updated checks, where the size (70 vs 47k) start to matter. 
 
 To keep the user interface responsive while working, Speltti only starts the spell check after user has been idle for half a second. 
+
+<a name="screenshot">
 
 ![Screenshot](https://terokarvinen.com/speltti/speltti-fast-spellcheck-for-micro.png?s=github)
 
